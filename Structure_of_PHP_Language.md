@@ -27,21 +27,23 @@ Skrypty **PHP** są plikami tekstowymi dlatego do ich tworzenia można wykorzyst
 
 # Systemy baz danych
 
-Bazy danych to uporządkowany zgodnie z ustalonymi założeniami, zbiór danych.
+**Bazy danych** to uporządkowany zgodnie z ustalonymi założeniami, zbiór danych.
 
-Wszelkie istotne dla systemu informacje są zapisane w postaci cyfrowej, stanowią dane.
+Wszelkie istotne dla systemu informacje są zapisane w postaci **cyfrowej** i stanowią dane.
 
-System zarządzania bazą danych, to zbiór programów i narzędzi, może występować jako jedna aplikacja pozwalająca na tworzenie, przechowywanie i przetwarzanie baz danych, oraz zarządanie nimi. 
-System baz danych składa sie z zbioru danych (bazy danych) i obsługującego go systemu zarządzania bazą danych. Obecnie standardem jest tworzenie dynamicznych witryn i aplikacji internetowych, korzystających z zbioru danych zlokalizowanych na serwerach.
+**System zarządzania bazą danych**, to zbiór programów i narzędzi, może występować jako jedna aplikacja pozwalająca na tworzenie, przechowywanie i przetwarzanie baz danych, oraz zarządanie nimi. 
 
-Dlatego organizacja danych na potrzeby systemów informatycznych lokalnych i internetowych jest istotnym procesem.
-W ujęciu fizycznym, wyróżniamy lokalne systemy baz danych, aplikacyjne lub desktopowe i sieciowe systemt baz danych, serwery baz danych stanowią najczęściej usługę w architekturze klient - serwer. 
+**System baz danych** składa się z zbioru danych *bazy danych* i obsługującego go systemu zarządzania **bazą danych**. 
 
-Baza danych stoi po stronie serwera, udostępniającą użytkownikowi obsługę sieciowych systemów baz danych wraz z narzędziami niezbędnymi do udostępniania zasobów, aplikacji i komunikacji z bazą danych.
-Do najpopularniejszych systemów zarządzania bazą danych w architekturze klient - serwer zaliczamy:
- - Microsoft SQL server
- - MySQL
- - Oracle
- - PostgreSQL
+Obecnie standardem jest tworzenie dynamicznych witryn i aplikacji internetowych, korzystających ze zbioru danych zlokalizowanych na serwerach, dlatego organizacja danych na potrzeby systemów informatycznych lokalnych i internetowych jest istotnym procesem.
 
-Istnieją również systemy baz danych pracujące jako lokalne aplikacje, nazywamy je lokalnymi lub desktopowymi systemami baz danych.
+W ujęciu fizycznym, wyróżniamy lokalne systemy baz danych, aplikacyjne lub desktopowe i sieciowe systemt baz danych, serwery baz danych stanowią najczęściej usługę w architekturze *klient - serwer*. 
+
+**Baza danych** stoi po stronie *serwera*, udostępniającą użytkownikowi obsługę sieciowych **systemów baz danych** wraz z narzędziami niezbędnymi do udostępniania zasobów, aplikacji i komunikacji z **bazą danych**.
+Do najpopularniejszych **systemów zarządzania bazą danych** w architekturze *klient - serwer zaliczamy*:
+ - Microsoft SQL server.
+ - MySQL.
+ - Oracle.
+ - PostgreSQL.
+
+Istnieją również **systemy baz danych** pracujące jako lokalne aplikacje, nazywamy je lokalnymi lub desktopowymi **systemami baz danych**.
