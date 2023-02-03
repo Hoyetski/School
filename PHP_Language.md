@@ -40,10 +40,35 @@ Obecnie standardem jest tworzenie dynamicznych witryn i aplikacji internetowych,
 W ujęciu fizycznym, wyróżniamy lokalne systemy **baz danych**, aplikacyjne lub desktopowe i sieciowe **systemy baz danych**, serwery **baz danych** stanowią najczęściej usługę w architekturze *klient - serwer*. 
 
 **Baza danych** stoi po stronie *serwera*, udostępniającą użytkownikowi obsługę sieciowych **systemów baz danych** wraz z narzędziami niezbędnymi do udostępniania zasobów, aplikacji i komunikacji z **bazą danych**.
-Do najpopularniejszych **systemów zarządzania bazą danych** w architekturze *klient - serwer zaliczamy*:
+
+Do najpopularniejszych **systemów zarządzania bazą danych** w architekturze *klient - serwer* zaliczamy:
  - Microsoft SQL server.
  - MySQL.
  - Oracle.
  - PostgreSQL.
 
 Istnieją również **systemy baz danych** pracujące jako lokalne aplikacje, nazywamy je lokalnymi lub desktopowymi **systemami baz danych**.
+
+Systemy te umożliwiają tworzenie nowych samodzielnych aplikacji ***bazodanowych*** oraz współdzielenie danych w sieci lokalnej.
+
+# Cechy systemów bazy danych
+
+Każdy **system bazy danych** powinnien charakteryzować się następującymi cechami:
+ -Określoną strukturą **systemu bazy danych**.
+ -Trwałością danych, czyli możliwością przechowywanią danych w pamięci masowej przez długi okres.
+ -Możliwością przeprowadzenia określonych operacji na danych, dotyczy to wprowadzenia zapytań oraz usuwania danych.
+ -Niezależnością danych, czyli oddzielenie struktury przechowywania danych od systemów zarządzania danymi oraz platformy sprzętowej.
+ -Bezpieczeństwem danych, czyli zapewnianie mechanizmów kontroli dostępu do danych.
+ -Integralnością danych przez zapewnianie zgodności danych z rzeczywistością.
+ -Spójnością danych, określaną poprzez poprawność danych oraz odporność na anomalie.
+
+# Modele baz danych 
+ 
+**Model bazy danych** można określić jako logiczny sposób organizacji danych złożony ze zbioru reguł, opisujących dane, wzajemne zależności między nimi, dozwolone operacje na danych oraz zasady dostępu
+do systemu bazy danych.
+
+Wyróżniamy **6** modeli baz danych:
+ 1. Model jednorodny- czyli proste bazy danych oparte na jednej tabeli, może się charakteryzować nadmiarowością danych oraz trudnością wyszukiwania informacji.
+ 2. Model hierarchiczny, który jest oparty na struktuże odwróconego drzewa, charakterystyczna dla tego modelu jest zależność typu: *podrzędny-nadrzędny*
+
+
