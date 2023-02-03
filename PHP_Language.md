@@ -31,13 +31,13 @@ Skrypty **PHP** są plikami tekstowymi dlatego do ich tworzenia można wykorzyst
 
 Wszelkie istotne dla systemu informacje są zapisane w postaci **cyfrowej** i stanowią dane.
 
-**System zarządzania bazą danych**, to zbiór programów i narzędzi, może występować jako jedna aplikacja pozwalająca na tworzenie, przechowywanie i przetwarzanie baz danych, oraz zarządanie nimi. 
+**System zarządzania bazą danych**, to zbiór programów i narzędzi, może występować jako jedna aplikacja pozwalająca na tworzenie, przechowywanie i przetwarzanie **baz danych**, oraz zarządanie nimi. 
 
 **System baz danych** składa się z zbioru danych *bazy danych* i obsługującego go systemu zarządzania **bazą danych**. 
 
 Obecnie standardem jest tworzenie dynamicznych witryn i aplikacji internetowych, korzystających ze zbioru danych zlokalizowanych na serwerach, dlatego organizacja danych na potrzeby systemów informatycznych lokalnych i internetowych jest istotnym procesem.
 
-W ujęciu fizycznym, wyróżniamy lokalne systemy baz danych, aplikacyjne lub desktopowe i sieciowe systemt baz danych, serwery baz danych stanowią najczęściej usługę w architekturze *klient - serwer*. 
+W ujęciu fizycznym, wyróżniamy lokalne systemy **baz danych**, aplikacyjne lub desktopowe i sieciowe **systemy baz danych**, serwery **baz danych** stanowią najczęściej usługę w architekturze *klient - serwer*. 
 
 **Baza danych** stoi po stronie *serwera*, udostępniającą użytkownikowi obsługę sieciowych **systemów baz danych** wraz z narzędziami niezbędnymi do udostępniania zasobów, aplikacji i komunikacji z **bazą danych**.
 Do najpopularniejszych **systemów zarządzania bazą danych** w architekturze *klient - serwer zaliczamy*:
