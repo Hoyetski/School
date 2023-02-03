@@ -54,21 +54,20 @@ Systemy te umożliwiają tworzenie nowych samodzielnych aplikacji ***bazodanowyc
 # Cechy systemów bazy danych
 
 Każdy **system bazy danych** powinnien charakteryzować się następującymi cechami:
- -Określoną strukturą **systemu bazy danych**.
- -Trwałością danych, czyli możliwością przechowywanią danych w pamięci masowej przez długi okres.
- -Możliwością przeprowadzenia określonych operacji na danych, dotyczy to wprowadzenia zapytań oraz usuwania danych.
- -Niezależnością danych, czyli oddzielenie struktury przechowywania danych od systemów zarządzania danymi oraz platformy sprzętowej.
- -Bezpieczeństwem danych, czyli zapewnianie mechanizmów kontroli dostępu do danych.
- -Integralnością danych przez zapewnianie zgodności danych z rzeczywistością.
- -Spójnością danych, określaną poprzez poprawność danych oraz odporność na anomalie.
+ - Określoną strukturą **systemu bazy danych**.
+ - Trwałością **danych**, czyli możliwością przechowywanią **danych** w pamięci masowej przez długi okres.
+ - Możliwością przeprowadzenia określonych operacji na **danych**, dotyczy to wprowadzenia zapytań oraz usuwania **danych**.
+ - Niezależnością **danych**, czyli oddzielenie struktury przechowywania **danych** od systemów zarządzania **danymi** oraz platformy sprzętowej.
+ - Bezpieczeństwem **danych**, czyli zapewnianie mechanizmów kontroli dostępu do **danych**.
+ - Integralnością **danych** przez zapewnianie zgodności **danych** z rzeczywistością.
+ - Spójnością **danych**, określaną poprzez poprawność **danych** oraz odporność na anomalie.
 
 # Modele baz danych 
  
-**Model bazy danych** można określić jako logiczny sposób organizacji danych złożony ze zbioru reguł, opisujących dane, wzajemne zależności między nimi, dozwolone operacje na danych oraz zasady dostępu
-do systemu bazy danych.
+**Model bazy danych** można określić jako logiczny sposób organizacji **danych** złożony ze zbioru reguł, opisujących **dane**, wzajemne zależności między nimi, dozwolone operacje na **danych** oraz zasady dostępu do systemu **bazy danych**.
 
 Wyróżniamy **6** modeli baz danych:
- 1. Model jednorodny- czyli proste bazy danych oparte na jednej tabeli, może się charakteryzować nadmiarowością danych oraz trudnością wyszukiwania informacji.
+ 1. Model jednorodny- czyli proste **bazy danych** oparte na jednej tabeli, może się charakteryzować nadmiarowością **danych** oraz trudnością wyszukiwania informacji.
  2. Model hierarchiczny, który jest oparty na struktuże odwróconego drzewa, charakterystyczna dla tego modelu jest zależność typu: *podrzędny-nadrzędny*
 
 
