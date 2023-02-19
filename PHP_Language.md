@@ -72,28 +72,41 @@ Wyróżniamy **6** modeli baz danych:
 
 # Relacyjne bazy danych
 W systemach opartych na bazach danych, najbardziej rozpowszechnił się model relacyjny bazy danych.
+
 Podstawę relacyjnych baz danych stanowi teoria, która opublikował Edgar Frank (Ted Codd), według niej cały model relacyjny jest oparty na matematycznym pojęciu relacji.
+
 Relają nazywamy dowolny podzbiór iloczynu kardeziańskiego, najczęściej relacje będą reprezentowane przez tabele, jeżeli tabela typową relacją to jej kolumny są atrybutami a wiersze krotkami.
+
 Krotka to nie powtażalny zbiór wartości o określonych typach danych, umieszczonych w polach, opisujący pojedyńczy element tabeli bazy danych.
+
 Wyłączony jest z tej definicji pierwszy wiersz tabeli, będący wierszem nagłówkowym, zawierającym nazwy kolumn (atrybutów).
+
 Krotki nazywamy też rekordami tabeli bazy danych.
+
 Atrybut to kolumna tabeli, mająca określoną nazwe, atrybuty określają zbiór cech elementu bazy danych póżniej opisywanych wartościami.
+
 Zbiór wartości atrybutu nazywamy dziedziną lub typem danych.
+
 W projektowaniu relacyjnych baz danych stosujemy dodatkowo pojęcie encji, encja to reprezentacja obiektu zarówno materialnej i nie materialnego (rzecz, osoba, miejsce, zdarzenie, pojęcia), będącego elementem odróżnialnym przez określane cechy.
+
 Encje o podobnych cechach mogą być grupowane w zbiory encji, encje są opisane atrybutami, między encjami mogą zachodzić związki zwane relacjami, dopiero na podstawie projektu zdefiniowanych encji lub grup encji tworzymy tabele relacyjnej bazy danych.
+
 Atrybuty encji są podstawą do tworzenia kolumn tych tabel, każda poprawnie zdefiniowana tabela powinna spełniać określone wymagania:
--t abela musi posiadać jednoznaczną nazwe.
+- tabela musi posiadać jednoznaczną nazwe.
 - każda kolumna (atrybut) musi posiadać jednoznaczną nazwe opisującą ceche elementu bazy oraz określony typ danych do opisu wartości tej cechy
 - każde pole tabeli musi zawierać tak zwaną wartośc atomową, czyli wartość niepodzielną zgodną z ustolnym typem danych
 - nie może się powtarzać opis tego samego elementu bazy danych w postaci zdublowanego rekordu
 - nie powinny pojawiać się pola tabeli opisujące cechy nieużyteczne z punktu widzenia funcjonalności bazy danych
 - każda tabela musi posiadać przynajmniej jeden atrybut lub zbiór atrybutów, który będzie jednoznacznie identyfikować każdy rekord bazy danych, taki atrybut nazywamy kluczem.
+
 Każda tabela musi posiadać atrybut lub zbiór atrybutów jednoznacznie indetyfikujący każdy rekord tabeli bazy danycyh, taki atrybut nosi nazwę klucza głównego (podstawowego).
+
 Klucz głowny następujące warunki:
 - musi być unikatowy
 - powinnien mieć nie podzielną wartość
 - nie może przyjmować wartości null
 - wartość klucza nie może się zmieniać
+
 W bazach danych możemy spotkać 5 rodzajów kluczy
 - klucz prosty- jest to klucz jednoelementowy
 - klucz złożony- klucz kilko elementowy
