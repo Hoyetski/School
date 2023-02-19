@@ -102,14 +102,14 @@ Atrybuty encji są podstawą do tworzenia kolumn tych tabel, każda poprawnie zd
 Każda tabela musi posiadać atrybut lub zbiór atrybutów jednoznacznie indetyfikujący każdy rekord tabeli bazy danycyh, taki atrybut nosi nazwę klucza głównego (podstawowego).
 
 Klucz głowny następujące warunki:
-- musi być unikatowy
-- powinnien mieć nie podzielną wartość
-- nie może przyjmować wartości null
-- wartość klucza nie może się zmieniać
+- **musi być unikatowy**
+- **powinnien mieć nie podzielną wartość**
+- **nie może przyjmować wartości null**
+- **wartość klucza nie może się zmieniać**
 
 W bazach danych możemy spotkać 5 rodzajów kluczy
-- klucz prosty- jest to klucz jednoelementowy
-- klucz złożony- klucz kilko elementowy
-- klucz stuczny- dodatkowa kolumna indentyfukująca każdy rekord, utworzona w sposób stuczny, z klucza stucznego korzysta się w tedy, gdy z cech opisujących obiekt nie można wyodrębnić takiej cechy, która spełnia warunki dla klucza głównego
-- klucz obcy- klucz główny jednej tabeli, wykorzystywany do tworzenia związków pomiędzy tabelami
-- klucz kandydujący 	
+- **klucz prosty**- jest to klucz jednoelementowy
+- **klucz złożony**- klucz kilko elementowy
+- **klucz stuczny**- dodatkowa kolumna indentyfukująca każdy rekord, utworzona w sposób stuczny, z klucza stucznego korzysta się w tedy, gdy z cech opisujących obiekt nie można wyodrębnić takiej cechy, która spełnia warunki dla klucza głównego
+- **klucz obcy**- klucz główny jednej tabeli, wykorzystywany do tworzenia związków pomiędzy tabelami
+- **klucz kandydujący**	
